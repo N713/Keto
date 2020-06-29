@@ -1,7 +1,1 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="385px" height="104px">
-  <path fill-rule="evenodd"  fill="rgb(206, 2, 2)"
-        d="M385.014,51.997 L315.562,104.002 L315.562,77.083 L238.986,77.083 L238.986,76.996 L-0.000,76.996 L-0.000,26.997 L238.986,26.997 L238.986,26.908 L315.562,26.908 L315.562,-0.008 L385.014,51.997 Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="385" height="104"><path fill-rule="evenodd" fill="#CE0202" d="M385.014 51.997l-69.452 52.005V77.083h-76.576v-.087H0V26.997h238.986v-.089h76.576V-.008l69.452 52.005z"/></svg>
