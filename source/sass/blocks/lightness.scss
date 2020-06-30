@@ -1,0 +1,70 @@
+.lightness {
+  @include reset;
+}
+
+.lightness__container {
+  max-width: $maxWidth;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 95px;
+}
+
+.lightness__container h2 {
+  font-family: $playfair;
+  font-size: 110px;
+  font-weight: 300;
+  line-height: 110px;
+  color: #ffffff;
+  box-sizing: border-box;
+  max-width: 60%;
+
+  @include reset;
+  margin-bottom: 30px;
+}
+
+.lightness__container h2 span {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 140px;
+}
+
+.lightness__container p {
+  @include reset;
+  color: white;
+  box-sizing: border-box;
+  width: 40%;
+  padding-left: 95px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 120px;
+}
+
+.lightness__container .lightness__mouse {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 250px;
+  min-height: 65px;
+  background: linear-gradient(to left, #f99cc2, rgba(0, 0, 0, 0) 80%);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 26px;
+  border: none;
+  border-radius: 70px;
+  padding: 15px 35px;
+  text-align: right;
+}
+
+.lightness__container .lightness__mouse img {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.lightness__container .lightness__mouse span {
+  text-align: center;
+  vertical-align: middle;
+}

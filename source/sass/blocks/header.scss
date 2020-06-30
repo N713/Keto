@@ -1,0 +1,15 @@
+.header__container {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  min-height: 150px;
+  box-sizing: border-box;
+  padding: 20px 95px;
+}
+
+.header__container a {
+  min-height: 31px;
+}
+
+.header__container a img {
+  margin-top: 40px;
+}

@@ -1,0 +1,75 @@
+.ineffective {
+  background-image: url("../img/girl-with-headache-back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1190px;
+  position: relative;
+  z-index: 9;
+  top: -130px;
+  padding-top: 200px;
+}
+
+.ineffective__wrapper {
+  box-sizing: border-box;
+  max-width: $maxWidth;
+  margin: 0 auto;
+}
+
+.ineffective__wrapper .ineffective__top h2 {
+  @include reset;
+  color: #ce0303;
+  font-family: $playfair;
+  font-size: 44px;
+  line-height: 52px;
+  width: 45%;
+  text-align: right;
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+}
+
+.ineffective__top .ineffective__top-figures {
+  display: inline-block;
+  width: 265px;
+  height: 240px;
+  background-image: url("../img/grey-second-screen-figure.png"),
+    url("../img/pink-second-screen-figure.png");
+  background-position: center bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  position: relative;
+  top: -50px;
+}
+
+.ineffective__top .ineffective__top-figures p {
+  @include reset;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  position: relative;
+  z-index: 10;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.ineffective__list {
+  @include reset;
+  list-style: none;
+  display: inline-block;
+  width: 45%;
+}
+
+.ineffective__list:first-of-type{
+  text-align: right;
+}
+
+.ineffective__list:last-of-type {
+  text-align: left;
+  float: right;
+}
